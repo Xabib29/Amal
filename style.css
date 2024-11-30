@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    list-style: none;
+
+}
+
+
+ul li a {
+
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    color: #F57520;
+}
+
+
+.head-right {
+    display: flex;
+    gap: 50px;
+}
+
+#bir {
+    background: url('img/1\ \(1\).svg') no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.bir-text {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: white;
+
+
+}
+
+.bir-content {
+    width: 680px;
+}
+
+.bir-btn {
+    padding-top: 40px;
+    padding-bottom: 200px;
+
+
+}
+
+.bir-btn button {
+    width: 180px;
+    height: 52px;
+    background-color: #F57520;
+    border-radius: 10px;
+
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+
+}
+
+
+
+main{
+     background-color: gray;
+}
+   
+
+
+
+.ikki-title {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+
+    color: #101010;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    text-align: center;
+}
+
+
+.velosiped {
+    width: 1240px;
+    height: 300px;
+    background-color: black;
+
+    border-radius: 10px;
+}
+
+.velo-text {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.velosiped {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.velosiped:hover {
+    background-color: #F57520;
+}
+
+.trade {
+    width: 400px;
+    height: 458px;
+
+    border-radius: 10px;
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+
+
+}
+
+.trade:hover {
+    background-color: #F57520;
+
+}
+
+.trade-img img {
+    width: 100%;
+}
+
+
+.zapchast {
+    width: 400px;
+    height: 216px;
+
+    border-radius: 10px;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.zapchast:hover {
+    background-color: #F57520;
+
+}
+
+.zapchast-img img {
+    width: 100%;
+}
+
+
+.ikki-parent {
+    margin-top: 16px;
+    display: flex;
+    gap: 20px;
+
+
+
+}
+
+.zapchast-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    gap: 20px;
+    width: 820px;
+}
+
+.ekipi {
+    width: 400px;
+    height: 216px;
+
+    border-radius: 10px;
+
+    background-color: black;
+    align-items: center;
+    display: flex;
+  
+    
+}
+
+.ekip img {
+
+    width: 100%;
+   padding-top: 140px;
+    
+}
+
+.ekipi:hover {
+    background-color: #F57520;
+
+}
+.velosta {
+    width: 400px;
+    height: 216px;
+
+    border-radius: 10px;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.velosta:hover {
+    background-color: #F57520;
+
+}
+
+.velos img {
+    width: 100%;
+    padding-top: 87px;
+}
+.vel img {
+    width: 100%;
+    
+}
+
+.pinar{
+    width: 400px;
+height: 462px;
+border-radius: 10px;
+background-color: #101010;
+color: white;
+}
+.text{
+    padding-top: 20px;
+    padding-left: 27px;
+   
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 800;
+
+}
+#uch p{
+    width: 315px;
+height: 87px;
+padding-left: 27px;
+padding-top: 50px;
+font-family: Open Sans;
+/* font-size: 18px; */
+font-weight: 400;
+
+}
+.pinar:hover{
+    background-color: #F57520;
+    color: #101010;
+}
+.velo-1parent{
+    display: flex;
+    justify-content: space-between;
+}
+.velo-2parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding-bottom: 100px;
+}
+form{
+    width: 610px;
+height: 354px;
+border-radius: 10px;
+margin-top: 92px;
+
+}
+#tort h2{
+    width: 620px;
+height: 98px;
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+color: white;
+
+
+}
+input{
+
+    width:  302px;
+height: 46px;
+top: 242px;
+left: 314px;
+padding: 10px 160px 10px 16px;
+gap: 10px;
+border-radius: 10px;
+border: none;
+font-family: Open Sans;
+margin-top: 10px;
+margin-bottom: 10px;
+font-weight: 400; 
+
+}
+.sob{
+    width: 608px;
+height:154px;
+
+padding: 10px 16px 10px 16px;
+gap: 10px;
+border-radius: 16px ;
+
+font-family: Open Sans;
+
+font-weight: 400;
+line-height: 25.6px;
+
+
+}
+#tort button{
+    width: 608px;
+height:52px;
+background-color: white;
+padding: 16px 80px 16px 80px;
+gap: 10px;
+border-radius: 10px;
+border: none;
+color: #F57520;
+
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.68px;
+
+
+}
+.tort-parent{
+    display: flex;
+   
+    align-items: center;
+
+}
+.tort-right img{
+    background: linear-gradient(86.38deg, #F57520 8.44%, rgba(245, 117, 32, 0) 23.24%);
+    
+
+    width: 760px;
+    height: 815px;
+
+}
+#tort{
+    background-color: #F57520;
+        height: 636px;
+
+}
+.parentt{
+    display: flex;
+    gap: 100px;
+}
+footer p{
+    margin-top: 20px;
+
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+
+
+}
+.fotparent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 91px;
+    color: white;
+
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.4px;
+
+
+}
+footer{
+    background-color: #101010;
+    height: 310px;
+}
+.nimadir img{
+margin-top: 20px;
+}
+form{
+    margin-bottom: 200px;
+}
